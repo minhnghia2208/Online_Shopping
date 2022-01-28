@@ -1,0 +1,8 @@
+.square {
+    height: 100px;
+    width: 100px;
+    background-color: whitesmoke;
+    border: 3px solid black;
+    text-align: center;
+    padding-top: 22px;
+  }

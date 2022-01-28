@@ -1,0 +1,53 @@
+<div class="container">
+    <div style="margin-top: 50px;" class="row">
+        <div class="col">
+            <h4>Customer Register:</h4>
+            <br>
+            PhoneNumber:
+            <input [(ngModel)]="pnCustomerReg"/>
+            <br>
+            Name:
+            <input style="margin-left: 50px;" [(ngModel)]="nameCustomerReg"/>
+            <br>
+            <a routerLink="/Customer">
+                <button (click)='registerAsCustomer()'>Let's Go</button>
+            </a> 
+        </div>
+        <div class="col">
+            <h4>Shop Register:</h4>
+            <br>
+            PhoneNumber:
+            <input [(ngModel)]="pnShopReg"/>
+            <br>
+            Name:
+            <input style="margin-left: 50px;" [(ngModel)]="nameShopReg"/>
+            <br>
+            <a routerLink="/Shop">
+                <button (click)='registerAsShop()'>Let's Go</button>
+            </a> 
+        </div>
+    </div>
+
+    <div style="margin-top: 50px;" class="row">
+        <div class="col">
+            <h4>Customer Login:</h4>
+            <br>
+            PhoneNumber:
+            <input [(ngModel)]="pnCustomerLogin"/>
+            <br>
+            <a routerLink="/Customer">
+                <button (click)='loginAsCustomer()'>Let's Go</button>
+            </a> 
+        </div>
+        <div class="col">
+            <h4>Shop Login:</h4>
+            <br>
+            PhoneNumber:
+            <input [(ngModel)]="pnShopLogin"/>
+            <br>
+            
+                <button (click)='loginAsShop()'>Let's Go</button>
+            
+        </div>
+    </div>
+</div>
